@@ -1,28 +1,7 @@
-Data Engineer Tech Challenge TAP
+# Data Engineer Tech Challenge TAP
 This test is split into 6 sections
 
-data pipelines
-databases
-system design
-charts & APIs
-machine learning
-presentation
-Submission Guidelines
-Please create a Github repository containing your submission and send us an email containing a link to the repository.
-
-Dos:
-
-Frequent commits
-Descriptive commit messages
-Clear documentation
-Comments in your code
-Donts:
-
-Only one commit containing all the files
-Submitting a zip file
-Sparse or absent documentation
-Code which is hard to read
-Section 1: Data Pipelines
+# Section 1: Data Pipelines
 The objective of this section is to design and implement a solution to process a data file on a regular interval (e.g. daily). Assume that there are 2 data files dataset1.csv and dataset2.csv, design a solution to process these files, along with the scheduling component. The expected output of the processing task is a CSV file including a header containing the field names.
 
 You can use common scheduling solutions such as cron or airflow to implement the scheduling component. You may assume that the data file will be available at 1am everyday. Please provide documentation (a markdown file will help) to explain your solution.
@@ -35,7 +14,7 @@ Delete any rows which do not have a name
 Create a new field named above_100, which is true if the price is strictly greater than 100
 Note: please submit the processed dataset too.
 
-Section 2: Databases
+# Section 2: Databases
 You are appointed by a car dealership to create their database infrastructure. There is only one store. In each business day, cars are being sold by a team of salespersons. Each transaction would contain information on the date and time of transaction, customer transacted with, and the car that was sold.
 
 The following are known:
@@ -62,7 +41,7 @@ I want to know the list of our customers and their spending.
 
 I want to find out the top 3 car manufacturers that customers bought by sales (quantity) and the sales number for it in the current month.
 
-Section 3: System Design
+# Section 3: System Design
 Prepare a presentation to your project team on how you plan to design data infrastructure on the cloud for a company whose main business is in processing images. Your role is the Tech Lead for this project.
 
 The company has a web application which collects images uploaded by customers. The company also has a separate web application which provides a stream of images using a Kafka stream. The company’s software engineers have already some code written to process the images.
@@ -73,7 +52,7 @@ Produce a system architecture diagram (e.g. Visio, Powerpoint) using any of the 
 
 Share about the pros and cons of your design to justify the decisions you have made.
 
-Section 4: Charts and APIs
+# Section 4: Charts and APIs
 Your team decided to design a dashboard to display the statistic of COVID19 cases. You are tasked to display one of the components of the dashboard which is to display a visualisation representation of number of COVID19 cases in Singapore over time.
 
 Your team decided to use the public data from https://documenter.getpostman.com/view/10808728/SzS8rjbc#b07f97ba-24f4-4ebe-ad71-97fa35f3b683.
@@ -82,7 +61,7 @@ Display a graph to show the number cases in Singapore over time using the APIs f
 
 Note: please submit screenshots of the dashboard
 
-Section 5: Machine Learning
+# Section 5: Machine Learning
 Using the dataset from https://archive.ics.uci.edu/ml/datasets/Car+Evaluation, create a machine learning model to predict the buying price given the following parameters:
 
 Maintenance = High
@@ -90,7 +69,7 @@ Number of doors = 4
 Lug Boot Size = Big
 Safety = High
 Class Value = Good
-Section 6: What is Data Engineering?
+# Section 6: What is Data Engineering?
 You are tasked to help an agency to consolidate data to reduce data silos over a 3 months period. You will prepare a presentation to executive leadership to influence them to sponsor this data engineering initiative.
 
 Your use-case can be any business function that you are familiar with. You should consider the different perspectives of the stakeholders. Do include a definition of the use case as well as be prepared to dive deep in technical considerations. Choose one of the following topics and prepare the presentation in relation to the scenario above:
